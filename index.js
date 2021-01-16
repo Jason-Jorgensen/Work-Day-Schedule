@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     var showDate = moment().format("dddd, MMMM Do YYYY, h:mm a");
-    var currentHour=moment().hour();
+    var currentHour=moment().hour()-10;
     var totalHour = 18;
     $("#currentDay").text(showDate);
 
